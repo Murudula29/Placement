@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* Hide common slider/carousel nav arrows globally */
+.swiper-button-next,
+.swiper-button-prev,
+.carousel-control-next,
+.carousel-control-prev,
+.slick-next,
+.slick-prev,
+.owl-next,
+.owl-prev,
+.tns-controls [data-controls="next"],
+.tns-controls [data-controls="prev"] {
+  display: none !important;
+}
+
+/* Some libraries render them as plain buttons/links with arrow text */
+a[role="button"].carousel-control-next,
+a[role="button"].carousel-control-prev,
+button[aria-label="Next"],
+button[aria-label="Previous"] {
+  display: none !important;
+}
+
