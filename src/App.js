@@ -3547,7 +3547,7 @@ function GoogleOnlyNudge() {
       <div className="container">
         <div className="alert alert-warning d-flex justify-content-between align-items-center py-2 px-3 mb-3">
           <span>
-            You signed in with Google. Add a password so email+password login
+            You signed in with Google platform. Add a password so email+password login
             also works.
           </span>
           <Link className="btn btn-sm btn-outline-dark" to="/add-password">
